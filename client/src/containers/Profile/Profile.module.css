@@ -1,0 +1,21 @@
+.Profile {
+  width: 80%;
+  margin: 20px auto 0;
+  font-size: 20px;
+  padding: 18px;
+  box-sizing: border-box;
+  border: 1px #ccc solid;
+  border-radius: 3px;
+}
+.Profile p {
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+.Profile p:last-child {
+  border-bottom: none;
+}
+.Profile p span {
+  font-weight: bold;
+  font-size: 20px;
+}

@@ -1,0 +1,29 @@
+.MessageItem {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  margin: 10px 5px ;
+  border-radius: 10rem;
+}
+
+.MessageItem small {
+  font-size: 10px;
+  opacity: .5;
+  
+  margin-top: 3px;
+}
+.Opponent {
+  align-self: flex-start;
+   border-top-left-radius: 10px;
+  background: slateblue;
+  color: white;
+}
+.Me {
+  border-bottom-right-radius: 10px;
+ 
+  background: lightgray;
+  color: darkslateblue;
+}
+.Me small {
+  align-self: flex-end;
+}

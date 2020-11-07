@@ -1,0 +1,46 @@
+.Auth {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px auto 0;
+  border-radius: 3px;
+  border: 1px solid grey;
+  padding:  50px;
+  font-size: 18px;
+}
+.Auth input {
+  font-size: 18px;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 3px;
+  margin: 10px 0;
+  height: 30px;
+  padding: 0 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Auth button {
+  width: 100%;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 0;
+  background-color: slateblue;
+  color: white;
+  outline: none;
+  border:  none;
+  border-radius: 3px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.Auth button:hover {
+  background-color:mediumslateblue;
+}
+.Error {
+  color: orangered;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0 auto 10px;
+}

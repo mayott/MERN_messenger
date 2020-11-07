@@ -1,0 +1,56 @@
+.MessageList {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+.MessageList p{
+  text-align: center;
+  margin-top: 20px;
+}
+.MessageList ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  overflow-y: auto;
+  max-height: 85vh;
+}
+.MessageList form {
+  border: 1px solid grey;
+  border-radius: 3px;
+  height: 50px;
+  display: flex;
+}
+.MessageList form input {
+  flex-grow: 1;
+  background-color: rgba(0,0,0, .0);
+  outline: none;
+  border: none;
+  font-size: 18px;
+  padding: 0 10px;
+}
+.MessageList form input::-webkit-input-placeholder {
+  color: grey;
+}
+.MessageList button {
+ background: white;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 24px;
+  text-align: center;
+  width: 50px;
+}
+.MessageList button:hover {
+  color: slateblue;
+}
